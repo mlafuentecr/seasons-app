@@ -1,7 +1,10 @@
 .App {
   text-align: center;
+  height: 100vh;
 }
-
+.segment {
+  height: 100%;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -11,6 +14,18 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+.Sumer {
+  background-color: orange !important;
+  color: white;
+  font-size: clamp(2rem, 5vw, 4rem) !important
+}
+
+.Winter {
+  background-color:#49bfee !important;
+  color: white;
+  font-size: clamp(2rem, 5vw, 4rem) !important
 }
 
 .App-header {
